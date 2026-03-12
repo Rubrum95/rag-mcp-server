@@ -20,7 +20,7 @@ logger = logging.getLogger(__name__)
 
 mcp = FastMCP(
     "rag-mcp-server",
-    description="RAG server for indexing and querying PDFs, code, and documents",
+    instructions="RAG server for indexing and querying PDFs, code, and documents",
 )
 
 # Lazy singletons — heavy dependencies loaded only when first tool is called
